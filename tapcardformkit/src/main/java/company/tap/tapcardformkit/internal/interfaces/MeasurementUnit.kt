@@ -1,0 +1,18 @@
+package company.tap.tapcardformkit.internal.interfaces
+
+import company.tap.tapcardformkit.internal.api.enums.Measurement
+
+/**
+ * Created by AhlaamK on 3/23/22.
+
+Copyright (c) 2022    Tap Payments.
+All rights reserved.
+ **/
+interface MeasurementUnit {
+    /**
+     * Gets measurement group.
+     *
+     * @return the measurement group
+     */
+    fun getMeasurementGroup(): Measurement
+}

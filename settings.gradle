@@ -1,0 +1,3 @@
+include ':tapcardformkit'
+include ':app'
+rootProject.name = "CardFormKitSample"
